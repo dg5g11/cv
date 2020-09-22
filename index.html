@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dani's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing=20>
+    <tr>
+      <td><img src="images/dani.jpg" alt="daniella gambier headshot"></td>
+      <td>
+        <h1>Daniella Gambier</h1>
+        <p><em>Support & Training Consulant at <strong>Spektrix</strong>.</em></p>
+        <p>I am learing how to build websites with Angela Yu. I love musicals, rollercoasters, and cheese.</p>
+      </td>
+    </tr>
+  </table>
+  <!--Using a web address to find the image: <img src="https://i1.sndcdn.com/avatars-000518311500-jmzlyv-t500x500.jpg" alt="daniella gambier headshot">-->
+  <hr>
+  <h3>Education</h3>
+  <ul>
+    <li>University of Southampton</li>
+    <li>The Marlborough School</li>
+    <li>Stonesfield Primary School</li>
+  </ul>
+<hr>
+  <h3>Work Experience</h3>
+  <!-- By default, tables don't have any stylng. <table border ="1"> could be used to add horrible borders, but since HTML is for structure and CSS is for styling, we should avoid using HTML for this sort of structure/formatting-->
+  <table cellspacing=10>
+    <thead>
+      <tr>
+        <!--<tr></tr> creates a row. If there's nothing between the <tr>  </tr> tags, we won't see anything.-->
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!--<td></td> populates data into the cells. There are no table columns in HTML - all you're doing is going top to bottom defining columns, then adding cells to each row (each cell gets placed horizonally along the row in order) -->
+        <td>2019-2020</td>
+        <td>Support & Training Consultant</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>Box Office Assistant</td>
+      </tr>
+    </tbody>
+  </table>
+<hr>
+  <h3>Skills</h3>
+  <table cellspacing=10>
+    <tr>
+      <td>Seating Plans</td>
+      <td>💡💡💡💡💡</td> <!-- Using the WIN + . command, you can bring up the emoji keyboard!!-->
+      <td>Reports</td>
+      <td>💡💡</td>
+    </tr>
+    <tr>
+      <td>Customer Lists</td>
+      <td>💡💡💡💡</td>
+      <td>Offers</td>
+      <td>💡💡💡</td>
+    </tr>
+    <tr>
+      <td>Hardware</td>
+      <td>💡</td>
+      <td>Sales</td>
+      <td>💡💡💡💡💡</td>
+    </tr>
+  </table>
+  <hr>
+  <!-- The below is how to link to another page that has been created in the same file location as index.html -->
+  <h3><a href="hobbies.html">My Hobbies</a></h3>
+  <hr>
+  <h5><a href="contact.html">Contact Details</a></h5>
+</body>
+
+</html>
